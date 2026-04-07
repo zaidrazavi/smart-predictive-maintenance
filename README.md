@@ -1,19 +1,37 @@
-# Smart Predictive Maintenance System (Industrial AI)
+# 🚀 Smart Predictive Maintenance System (Industrial AI)
 
-This project predicts machine failure using machine learning and simulates real-world industrial equipment monitoring.
+🔗 **Live Demo:** https://smart-predictive-maintenance-prjct.streamlit.app/
 
-## Features:
+## 📌 Overview
+This project predicts machine failure using machine learning and simulates real-world industrial equipment monitoring systems such as cranes and manufacturing equipment.
+
+## ⚙️ Features
 - Predictive maintenance using sensor data
 - Real-time prediction interface (Streamlit UI)
-- Anomaly detection concepts
-- Industrial use-case (cranes, manufacturing systems)
+- Machine failure detection
+- Industrial AI use-case simulation
 
-## Tech Stack:
+## 🧠 Tech Stack
 - Python
-- Pandas, Scikit-learn
+- Pandas, NumPy
+- Scikit-learn
 - Streamlit
 
-## How to Run:
+## 📊 Input Parameters
+- Air Temperature
+- Process Temperature
+- Rotational Speed
+- Torque
+- Tool Wear
+
+## 🚀 How to Run Locally
+```bash
 pip install -r requirements.txt
 python model.py
 python -m streamlit run app.py
+
+🎯 Use Case
+
+This system can be used in industrial environments to monitor equipment health, prevent failures, and improve safety.
+
+🔥 Built by Zayed Kazim (AI/ML Engineer)
